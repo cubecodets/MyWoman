@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners
+        android:bottomLeftRadius="@dimen/corners_bg_on_boarding"
+        android:bottomRightRadius="@dimen/corners_bg_on_boarding" />
+    <solid
+        android:color="@color/colorOnBoardingThree" />
+
+</shape>

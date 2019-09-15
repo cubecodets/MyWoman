@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- OnBoarding Content -->
+    <array name="on_boarding_image">
+        <item>@drawable/p3</item>
+        <item>@drawable/p2</item>
+        <item>@drawable/p5</item>
+    </array>
+
+
+    <array name="product_types_image">
+        <item>@drawable/eyesss</item>
+        <item>@drawable/foundation_png</item>
+        <item>@drawable/lipsticktuberoud</item>
+        <item>@drawable/p7</item>
+    </array>
+
+    <array name="on_boarding_title">
+        <item>My Woman</item>
+        <item>My Woman</item>
+        <item>My Woman</item>
+    </array>
+
+    <array name="product_types_title">
+        <item>Eyeliner</item>
+        <item>Foundation</item>
+        <item>Lipstick</item>
+        <item>Nail polish</item>
+    </array>
+
+    <array name="product_types_price">
+        <item>20.00 $</item>
+        <item>44.00 $</item>
+        <item>31.00 $</item>
+        <item>80.00 $</item>
+    </array>
+
+    <array name="on_boarding_subtitle">
+        <item>Shop \nThe Most \nModern Make Up</item>
+        <item>Shop \nThe Best \nBrands</item>
+        <item>Choose \nFrom products \nTypes</item>
+    </array>
+
+    <string name="app_name">MyWoman</string>
+
+</resources>

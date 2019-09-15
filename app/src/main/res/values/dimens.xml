@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Corners -->
+    <dimen name="corners_bg_on_boarding">24dp</dimen>
+    <dimen name="corners_btn_started">24dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_btn_started">24dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+    <dimen name="margin_dot_indicator">40dp</dimen>
+    <dimen name="margin_on_boarding_image">80dp</dimen>
+
+    <!-- Padding's -->
+    <dimen name="padding_btn_started">56dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="height_bg_on_boarding">400dp</dimen>
+    <dimen name="width_on_boarding_subtitle">277dp</dimen>
+    <dimen name="dot_size">8dp</dimen>
+
+    <!-- Texts -->
+    <dimen name="text_btn_size">14sp</dimen>
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_subtitle_size">14sp</dimen>
+
+</resources>

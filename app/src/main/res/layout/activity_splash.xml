@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_on_boarding_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bg_on_boarding"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_on_boarding_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/di_on_boarding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:dotsColor="@color/colorDivider"
+            app:dotsSize="@dimen/dot_size"
+            app:progressMode="true"
+            app:layout_constraintHorizontal_bias=".15"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
